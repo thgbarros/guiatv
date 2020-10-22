@@ -22,4 +22,7 @@ public class Canal {
     private String numero;
     @JsonAlias("id_revel")
     private String grade;
+    @JsonAlias("url_imagem")
+    @JsonProperty
+    private String imagem;
 }
